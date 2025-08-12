@@ -31,3 +31,8 @@ Delete: clear page
 w: save session JSON to <foldername>.json
 
 o: change folder
+
+
+## How it looks like
+
+<img width="1246" height="1309" alt="image" src="https://github.com/user-attachments/assets/764e99c6-9aee-419b-8d1e-23de69e4b8c3" />
