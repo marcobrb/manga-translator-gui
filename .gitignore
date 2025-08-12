@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+# Poetry
+.dist/
+dist/
+build/
+*.egg-info/
+
+# IDE/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets
+.env

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "manga-translator-gui"
+version = "0.1.0"
+description = "Tkinter GUI to OCR manga panels and translate them with DeepL"
+authors = ["Marco"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "manga_translator_gui", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13.5"
+Pillow = "^10.0.0"
+manga-ocr = "^0.1.14"
+deepl = "^1.16.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.0.0"
+ruff = "^0.5.0"
+mypy = "^1.10.0"
+
+[tool.poetry.scripts]
+manga-translator = "manga_translator_gui.cli:main"
