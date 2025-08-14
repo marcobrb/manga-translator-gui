@@ -1,6 +1,6 @@
 # manga-translator-gui
 
-Tkinter GUI to OCR manga panels and translate with DeepL. See `pyproject.toml` for requirements.
+Small Python app to OCR manga panels and translate the japanese text with the DeepL API. See `pyproject.toml` for requirements.
 
 
 ## Setup (Poetry)
